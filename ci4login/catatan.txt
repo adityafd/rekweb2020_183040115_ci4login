@@ -1,0 +1,125 @@
+>>> Software Framework
+
+Sebuah abstraksi pembuatan perangkat lunak dimana di dalamnya menyediakan fungsi-fungsi umum yang dapat digunakan dan diubah sesuai kebutuhan.
+~ en.wikipedia.org/wiki/Software_framework
+
+- Kerangka Kerja.
+- Menyediakan standar & aturan pembuatan perangkat lunak.
+- Reusability.
+- Bisa terdiri dari program, compiler, library, tool sets, api, komponen, dll.
+- Semua bahasa pemrograman populer memiliki framework.
+
+>>> Web Application Development Framework
+
+- PHP		= CodeIgniter, Laravel, Symphony, Yii.
+- JavaScript	= React, Vue, Express, Ember.
+- Java		= Spring, JSF, Struts, Hibernate.
+- Python	= Django, CherryPy, Flask, Pyramid.
+- CSS		= Bootstrap, Materialize, TailwindCSS.
+
+>>> Kelebihan Menggunakan Framework
+
+- Mempersingkat waktu pengembangan.
+- Struktur aplikasi yang terorganisir.
+- Tools & Libraries.
+- Fleksibilitas.
+- Security.
+- Teamwork.
+
+>>> Kekurangan Menggunakan Framework
+
+- Eksekusi yang lebih lambat.
+- Butuh waktu belajar.
+- Solusi umum untuk masalah yang spesifik.
+- Keterbatasan kendali.
+- Dependency.
+
+>>> CodeIgniter
+
+Salah satu dari toolkit untuk membuat website menggunakan bahasa PHP, bertujuan untuk mempercepat proses pembuatan dengan menyediakan banyak Library yang dibutuhkan.
+~ codeigniter.com/user_guide/intro/index.html
+
+- Small Footprint.
+- Performance yang baik.
+- Hampir 'zero configuration'.
+- Tidak harus menggunakan Command Line.
+- Tidak harus mengikuti aturan coding yang ketat.
+- Tidak harus menggunakan Templating Engine.
+- Dokumentasi yang jelas.
+- Menggunakan pattern MVC.
+
+>>> MVC
+
+Sebuah pola arsitektur pada perancangan perangkat lunak berorientasi objek, yang memisahkan antara tampilan, data, & proses.
+~ en.wikipedia.org/wiki/Model-view-controller
+
+Model (Data) <---> Controller (Proses) <---> View (Tampilan).
+
+>>> Pre-Requisite
+
+- PHP Dasar.
+- Object Oriented PHP.
+- MVC.
+- CodeIgniter.
+
+>>> System Requirement
+
+- PHP 7.2 ++
+- *intil* extensions & *mbstring* extensions.
+- libcurl
+- MySQL 5.1 ++
+
+>>> Software Requirement
+
+- XAMPP.
+- Visual Studio Code.
+- Composer.
+- Git Bash.
+
+>>> Visual Studio
+
+- Intelephense
+- Prettier
+- Snippet
+
+>>> Git Command (local)
+
+$ git init		= Inisialisasi Repo Git
+$ git add <file(s)>	= Menambah file
+$ git status		= Mengetahui status Repo
+$ git commit		= Melakukan commit
+$ git config		= Melakukan konfigurasi
+$ git branch		= Membuat cabang
+$ git help		= Bantuan Git
+
+DLL...
+
+3 Area pada Repo Git, yaitu Working Tree, Staging Area, & History.
+
+>>> CodeIgniter 4
+
+- Instalasi Aplikasi menggunakan "composer".
+- Local Development Server.
+- Minimal menggunakan PHP 7.2.
+- Perubahan pada Struktur Direktori.
+- Menggunakan Namespace.
+- Memiliki Autoloading yang lebih otomatis.
+- Memiliki file.env.
+- Memiliki CLI (Command Line Interface).
+- Memiliki fitur REST.
+- Dokumentasi yang lebih teknis.
+- Template Parser yang lebih baik.
+- More Customizable.
+
+>>> Fungsi Tiap Folder
+
++ app		= Folder Inti CodeIgniter, aplikasi tersimpan didalamnya.
++ public	= Folder tempat menyimpan asset, yang isinya akan dimodifikasi.
+  - htaccess	= Untuk membuat Pretty URL.
+  - favicon.ico	= Untuk membuat icon di sebelah tab.
+  - index.php	= Untuk berfungsi sebagai File Bootstrap, jangan di-modifikasi / di-hapus.
+  - robots.txt	= Untuk berfungsi sebagai Search Engine.
++ tests		= Folder dimana aplikasi menjalankan testing.
++ vendor	= Folder tempat menyimpan dependency dari aplikasi, yang dikelola oleh composer.
++ writable	= Folder dimana CodeIgniter akan mengisi sesuatu secara otomatis, jangan di-modifikasi / di-hapus.
++ env		= File Template buat konfigurasi environment aplikasi.
